@@ -63,6 +63,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="cpassword"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -102,4 +103,31 @@ footer {
     position: fixed; /* Set the footer to a fixed position */
     bottom: 0; /* Place the footer at the bottom of the viewport */
     width: 100%; /* Make the footer span the entire width of the viewport */
+}
+
+.form-container{
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container form{
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 500px;  
+}
+
+.form-container form .box{
+    width: 100%;
+    border-radius: 5px;
+    padding:12px 14px;
+    font-size: 18px;
+    color:var(--black);
+    margin:10px 0;
 }
