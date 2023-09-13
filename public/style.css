@@ -20,8 +20,10 @@ header {
 
 /* Navigation styles */
 nav {
+    align-items: center;
+    text-align: center;
     background-color: #444;
-    padding: 10px 0;
+    padding: 1px 0;
 }
 
 nav ul {
